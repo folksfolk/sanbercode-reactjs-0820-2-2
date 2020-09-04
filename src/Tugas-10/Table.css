@@ -1,0 +1,15 @@
+.listtable{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    width: 60%;
+    text-align: center;
+}
+
+thead{
+    background-color: lightgray;
+}
+
+tbody{
+    background-color: lightsalmon;
+}
