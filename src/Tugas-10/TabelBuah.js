@@ -4,7 +4,8 @@ import './Table.css'
 class Table extends Component {
     render() {
       return (
-        <table border="1px" className= "listtable">
+        <>
+        <table style={{border: "1px solid", margin: "0 auto"}} className= "listtable">
           <thead>
             <tr>
                 <th>Nama</th>
@@ -20,6 +21,7 @@ class Table extends Component {
                 </tr>
             </tbody>
         </table>
+        </>
       )
     }
 }

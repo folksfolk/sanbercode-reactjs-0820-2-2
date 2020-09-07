@@ -13,6 +13,7 @@ class DataBuah extends Component {
 
         return(
             <>
+            <h1 style={{textAlign : "center"}}> Daftar Harga Buah</h1>
             {
                 dataHargaBuah.map((el, idx)=>{
                     return(
