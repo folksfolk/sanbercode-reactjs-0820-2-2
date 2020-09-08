@@ -6,18 +6,16 @@ import FormPembelian from './Tugas-9/FormPembelian'
 // import DaftarBuah from './Tugas-10/Buah'
 import DataBuah from './Tugas-10/Buah';
 import Timer from './Tugas-11/Timer';
-import Lists from './Tugas-12/TableCRUD'
-import Home from './Tugas-12/test'
+import Data from './Tugas-12/DataCRUD'
 
 function App() {
   return (
     <div>
-      <Timer />
+      {/* <Timer />
       <FormPembelian />
       <br/>
-      <DataBuah />
-      {/* <Lists />
-      <Home /> */}
+      <DataBuah /> */}
+      <Data />
     </div>
   );
 }
