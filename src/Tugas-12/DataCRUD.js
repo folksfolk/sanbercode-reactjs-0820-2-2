@@ -1,5 +1,4 @@
 import React, {Component} from 'react' ;
-import Lists from './TableCRUD';
 import "./Table.css"
 
 class Data extends Component {
