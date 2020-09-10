@@ -2,7 +2,7 @@ import React, {useContext} from "react"
 import {BuahContext} from './BuahContext'
 
 const BuahForm = () => {
-    const [ buah, setBuah, inputForm, setInputForm] = useContext(BuahContext)
+    const [buah, setBuah, inputForm, setInputForm] = useContext(BuahContext)
 
     const handleSubmit = (event) => {
         event.preventDefault()
@@ -49,13 +49,13 @@ const BuahForm = () => {
                 <div style={{border: "1px solid #aaa", padding: "20px"}}>
                     <form style={{textAlign: "center"}} onSubmit={handleSubmit}>
                         <strong> Nama Buah : </strong>
-                        <input type="text" value={inputForm.nama} onchange={handleChange} requiredn name="nama" />
+                        <input type="text" value={inputForm.nama} onchange={handleChange} required name="nama" />
                         <br />
                         <strong> Harga Buah : </strong>
-                        <input type="text" value={inputForm.harga} onchange={handleChange} requiredn name="harga" />
+                        <input type="text" value={inputForm.harga} onchange={handleChange} required name="harga" />
                         <br />
                         <strong> Berat Buah : </strong>
-                        <input type="number" value={inputForm.berat} onchange={handleChange} requiredn name="berat" />
+                        <input type="number" value={inputForm.berat} onchange={handleChange} required name="berat" />
                         <br />
                         <button>Submit</button>
                     </form>

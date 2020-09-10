@@ -9,7 +9,7 @@ export const BuahProvider = props => {
         {id: 3, nama: "Strawberry", harga: 30000, berat: 400},
         {id: 4, nama: "Jeruk", harga: 30000, berat: 1000},
         {id: 5, nama: "Mangga", harga: 30000, berat: 500},
-    ]);
+    ])
 
     const [inputForm, setInputForm] = useState({
         nama: "",
@@ -22,5 +22,5 @@ export const BuahProvider = props => {
         <BuahContext.Provider value = {[buah, setBuah, inputForm, setInputForm]}>
             {props.childern}
         </BuahContext.Provider>
-    );
-};
+    )
+}

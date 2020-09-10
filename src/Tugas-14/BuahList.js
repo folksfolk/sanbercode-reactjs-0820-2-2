@@ -1,8 +1,8 @@
-import React, {useState, useContext} from "react"
+import React, {useContext} from "react"
 import {BuahContext} from './BuahContext'
 
 const BuahList = () => {
-    const [ buah, setBuah, inputForm, setInputForm] = useContext(BuahContext)
+    const [buah, setBuah, inputForm, setInputForm] = useContext(BuahContext)
 
     const handleDelete = (event) => {
         var idBuah = parseInt(event.target.value)
