@@ -14,7 +14,7 @@ const BuahForm = () => {
         } else {
             var dataBuah = buah.find(x => x.id === inputForm.id)
             dataBuah.nama = inputForm.nama
-            dataBuah.harga = inputForm.harga
+            dataBuah.harga = inputForm.harga.toString()
             dataBuah.berat = inputForm.berat
             setBuah([...buah])
         }
